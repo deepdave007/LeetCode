@@ -12,7 +12,9 @@ Input: [4,1,2,1,2]
 Output: 4
 */
 
-//SOLUTION - Linear 0(n) Time Complexity.
+/*SOLUTION - Linear 0(n) Time Complexity. This is achieved by creating a Hashmap in which all the integers from the
+array are fed in after which the conditions in the looping structure makes sure that no number is added twice into 
+the Hash by removing numbers that appear more than once and adding unique(new) numbers to the Map. */
 
 class Solution {
     public int singleNumber(int[] nums) {
